@@ -18,7 +18,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 3. **You will have to decide what would be the categories of the second-hand product you have selected.** For instance, if your website is about second-hand furniture, you can divide your categories into the bedroom, kitchen, dining room, etc.; if it is about second-hand car, your categories can be a Microbus, luxury car, electic car, etc. Or you can categorize second-hand products under brand names if you want. However, make sure it is relevant. You will need at least 3 categories, each with at least 2 products.
 
-4. When the user clicks on a category on the home page, they will be redirected to the **/category/:id** route, where they will see **second-hand products under that category only**. The **/category/:id** page will have a column(s) of cards. It can be 1,2, or 3 columns. Each card will have a picture, name, location, resale price, original price, years of use, the time when it got posted, the seller's name; if the seller is verified, there will be a blue tick next to their name and a **Book now** button.
+4. When the user clicks on a category on the home page, they will be redirected to the **/category/:id** route, where they will see **second-hand products under that category only**. The **/category/:id** page will have a column(s) of cards. It can be 1,2, or 3 columns. Each card will have a picture, name, location, resale price, original price, years of use, the time when it got posted, the seller's name; if the seller is verified, there will be a blue tick next to their name and a **Book now** button. Please note, category:/id will be a private route. 
 
 5. On clicking the **Book now** button, if the user is not  modal will have a form with the logged-in user name and email address, item name, and price(item name, price, and user information will not be editable) by default. You will give your phone number and meeting location, and lastly, there will be a submit button. After clicking the submit button, you will have to inform the buyer with a modal/toast that the item is booked.
 
@@ -74,13 +74,13 @@ Your website has to be related to selling used (second-hand products) with the a
 
 6. The **all-sellers** route will have a name, email address, delete button, and verify button. Admin will be able to verify a seller. When clicked on the verify button, the seller's status will change from unverified to verified(show a blue tick when the seller is verified), and this status will be shown on the products added by a verified seller.
 
-7. The **My Orders** route will have a table/cards. Each card/ table row will be an order having an image, title, price, and a pay button. On clicking the pay button, to take the user the payment page with fields for card details will pop up, or the user will be taken to a route where there will be a form for filling up card details. Save the payment information in the database and inform the user via a modal/toast. Don't forget to update the button text to "paid" after payment.
+7. The **My Orders** route will have a table/cards. Each card/ table row will be an order having an image, title, price, and a pay button. On clicking the pay button, to take the user the payment page with fields for card details will pop up, or the user will be taken to a route where there will be a form for filling up card details. Save the payment information in the database and inform the user via a modal/toast. Don't forget to update the button text to "paid" after payment. Please note, payment will be done by Stripe. 
 
       Once an item is paid, it won't be displayed on the advertised item or on the category page. Only available items will be displayed to be purchased.
 
 8. Use react query for at least two API calls.Use Axios for at least one API call
 
-9. Most likely framework will do it for you. However do not forget to make your entire website responsive. 
+9. Most likely framework will do it for you. However do not forget to make your entire website responsive. (It is ok if the table is not responsive.) please note, all the pages including dashboard will be responsive.
 
 10. Database collection names, routes, mongdb features/operators when needed, api naming convension and best practices.
 
@@ -91,6 +91,7 @@ Your website has to be related to selling used (second-hand products) with the a
 3. Add a search bar on the homepage and show advertisements based on the search key
 4. Add animation on the homepage
 5. Add another route," **My Buyers,"** where you will have to show the Buyers name, email, item purchased, etc.
+6. Create a Make Admin route for the admin. Here an admin (admin only) will be able to make any buyer or seller an admin.
 
 ### **What to submit**
 
