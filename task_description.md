@@ -1,6 +1,6 @@
 # Used Products Resale Market
 
-Your website has to be related to selling used (second-hand products) with the ability to advertise a product.Some examples are **Buy-sell** second-hand furniture/vehicles (car, bike, truck, bus) / books/cooking utensils / mobile phones(including headphones, chargers, power banks, etc.) / laptops (and laptop parts) / watches/exercise equipment /camera, etc. Remember, you will have to **choose only one category**. For instance, if your website advertises second-hand furniture, then it **cannot** sell any other products, such as mobile phones, instruments, etc., other than furniture.
+Your website has to be related to selling used (second-hand products) with the ability to advertise a product.Some examples are **Buy-sell** second-hand furniture, car, bike, truck, bus, books, cooking utensils, mobile phones, headphones, laptops, laptop parts, watches, TV, exercise equipment, camera, clothes, music instruments, Fridge, A/C, etc. Remember, you will have to **choose only one types of product**. For instance, if you select furniture, then you **cannot** sell any other products, such as mobile phones, instruments, etc., other than furniture.
 
 1. **IMPORTANT:** Make sure your design is **unique**. Your code and design must not match any of the **projects implemented in our course**. You must not copy your **previous assignments** or any **practice project** displayed in the course or in our **conceptual sessions**. Failing to satisfy any of the above conditions will cost you a significant mark or even 0.
 
@@ -12,13 +12,13 @@ Your website has to be related to selling used (second-hand products) with the a
 
 ## Main Requirements
 
-1. Your homepage will have a **navbar** , a banner/slider, Advertised items, second-hand **products category** section and a realistic **footer**.
+1. Your homepage will have a **navbar** , a banner/slider, Advertised items, second-hand **product categories** section and a realistic **footer**.
 
 2. Add **one** extra section on the home page. Make sure it is unique and relevant to your website.
 
-3. **You will have to decide what type of category the second-hand category section will be.** For instance, if your website is about second-hand furniture, you can divide your categories into the bedroom, kitchen, dining room, etc.; if it is about second-hand vehicles, your categories can be a truck, car, motorbike, etc. Or you can categorize second-hand products under brand names if you want. However, make sure it is relevant. You will need at least 3 categories, each with at least 2 products.
+3. **You will have to decide what would be the categories of the second-hand product you have selected.** For instance, if your website is about second-hand furniture, you can divide your categories into the bedroom, kitchen, dining room, etc.; if it is about second-hand car, your categories can be a Microbus, luxury car, electic car, etc. Or you can categorize second-hand products under brand names if you want. However, make sure it is relevant. You will need at least 3 categories, each with at least 2 products.
 
-4. When the user clicks on a category on the home page, they will be redirected to the **/category/:id** route, where they will see **second-hand products under that category only**. The **/category/:id** page will have a column(s) of cards. It can be 1,2, or 3 columns. Each card will have a picture, title, location, price and the time when it got posted, and the seller's name; if the seller is verified, there will be a blue tick next to their name and a book now button.
+4. When the user clicks on a category on the home page, they will be redirected to the **/category/:id** route, where they will see **second-hand products under that category only**. The **/category/:id** page will have a column(s) of cards. It can be 1,2, or 3 columns. Each card will have a picture, name, location, resale price, original price, years of use, the time when it got posted, the seller's name; if the seller is verified, there will be a blue tick next to their name and a book now button.
 
 5. On clicking the **book now** button, a modal will pop up. The modal will have a form with the logged-in user name and email address, item name, and price(item name, price, and user information will not be editable) by default. You will give your phone number and meeting location, and lastly, there will be a submit button. After clicking the submit button, you will have to inform the buyer with a modal/toast that the item is booked.
 
