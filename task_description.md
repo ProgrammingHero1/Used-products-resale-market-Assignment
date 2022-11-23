@@ -28,11 +28,11 @@ Your website has to be related to selling used (second-hand products) with the a
 
 7. If a user(buyer/seller/admin) is logged in, they will see **logout** (should be working) and another option on the header called Dashboard. The dashboard routes will change based on the users:
 
-      **Buyers will see:** My orders(see bonus requirement 7), My WishLists,
+      **Buyers will see:** My orders(see bonus requirement 7), My WishLists (see bonus requirement 4),
 
-      **Sellers will see:** Add A product (See Requirement 10), My Products(see requirement 11), My buyers(see requirement 12).
+      **Sellers will see:** Add A product (See Requirement 8), My Products(see requirement 11), My buyers(this one is optional).
 
-      **Admin will see:** All Sellers, All users (see requirement 17), Reported Items
+      **Admin will see:** All Sellers, All Buyers (see requirement 12), Reported Items
 
 8. On the " **Add A Product**" route, create a form that will have fields for product name, price, condition type(excellent, good, fair), mobile number, location (Chittagong, Dhaka, etc.), description, price, Year of purchase and other relevant information. After submitting the form, a modal/toast with a message will pop up to inform the user. Please remember, they must be a seller to add a product (think about the verification process for the admin access). After adding the product, you will then be redirected to the My Products Page.
 
@@ -76,9 +76,9 @@ Your website has to be related to selling used (second-hand products) with the a
 
       Once an item is paid, it won't be displayed on the advertised item or on the category page. Only available items will be displayed to be purchased.
 
-8. Use react query for at least two API calls.
+8. Use react query for at least two API calls.Use Axios for at least one API call
 
-9. Use Axios for at least one API call
+9. Most likely framework will do it for you. However do not forget to make your entire website responsive. 
 
 10. Database collection names, routes, mongdb features/operators when needed, api naming convension and best practices.
 
