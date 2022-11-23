@@ -22,7 +22,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
 5. On clicking the **book now** button, a modal will pop up. The modal will have a form with the logged-in user name and email address, item name, and price(item name, price, and user information will not be editable) by default. You will give your phone number and meeting location, and lastly, there will be a submit button. After clicking the submit button, you will have to inform the buyer with a modal/toast that the item is booked.
 
-6. Your navbar will have a **login** button. Implement email/password-based authentication and at least one social login(google, Facebook, GitHub, etc.) authentication. **Create an extra field for options. There will be two options: a radio button, a dropdown, a toggle button, etc. If the user creates a seller account, he will choose the seller option. Otherwise, a normal user will have the user option selected by default**.
+6. Your navbar will have a **login** button. Implement email/password-based authentication and at least one social login(google, Facebook, GitHub, etc.) authentication. **Create an extra field for options. There will be two options: a radio button, a dropdown, a toggle button, etc. If the user creates a seller account, he will choose the seller option. Otherwise, a normal user will have the user option selected by default**. Users logged in by using social media will be considered as buyers. 
 
       **Note:** Do not apply email verification as it will be an inconvenience for the examiner. It is important for the examiner to be able to check your authentication without any hassle. If you want, you can add email verification after getting the assignment result.
 
@@ -30,7 +30,7 @@ Your website has to be related to selling used (second-hand products) with the a
 
       **Buyers will see:** My orders(see bonus requirement 7), My WishLists (see bonus requirement 4),
 
-      **Sellers will see:** Add A product (See Requirement 8), My Products(see requirement 11), My buyers(this one is optional).
+      **Sellers will see:** Add A product (See Requirement 8), My Products(see requirement 9), My buyers(this one is optional).
 
       **Admin will see:** All Sellers, All Buyers (see requirement 12), Reported Items
 
